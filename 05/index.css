@@ -1,0 +1,15 @@
+img {
+    width: 20px
+}
+
+.important-item {
+    color: green;
+    font-size: 70px;
+    border: green 2px solid;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.important-size {
+    font-size: 90px
+}
