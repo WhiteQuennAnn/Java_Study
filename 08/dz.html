@@ -1,0 +1,49 @@
+<input value='Anna' class="first-name default-input" id="first-name" />
+<input value='Fomina' class="last-name default-input" id="last-name" />
+<input value='Vitebsk' class="address default-input" id="address" />
+
+<select id='sities'>
+    <option>Paris</option>
+    <option selected='selected'>London</option>
+    <option>Vitebsk</option>
+</select>
+<textarea id='hobbies'>music, it, react </textarea>
+
+<div id='avatar'>
+    <img src='https://web-creator.ru/' alt='avatarka'>
+</div>
+<script>
+    var lastNameId;
+    var lastNameEl;
+    var firstNameId;
+    var firstNameEl;
+    var addressId;
+    var addressEl;
+    var sitiesId;
+    var sitiesEl;
+    var hobbiesId;
+    var hobbiesEl;
+    var avatarId;
+    var avatarEl;
+
+    firstNameId = 'first-name';
+    firstNameEl = document.getElementById(firstNameId);
+    lastNameId = 'last-name';
+    lastNameEl = document.getElementById(lastNameId);
+    addressId = 'address';
+    addressEl = document.getElementById(addressId);
+    sitiesId = 'sities';
+    sitiesEl = document.getElementById(sitiesId);
+    hobbiesId = 'hobbies';
+    hobbiesEl = document.getElementById(hobbiesId);
+    avatarId = 'avatar';
+    avatarEl = document.getElementById(avatarId);
+
+    window.alert(firstNameEl.value);
+    window.alert(lastNameEl.className);
+    window.alert(addressEl.value);
+    window.alert(sitiesEl.value);
+    window.alert(hobbiesEl.value);
+    window.alert(avatarEl.alt);
+
+</script>
